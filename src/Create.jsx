@@ -6,12 +6,13 @@ const Create = () => {
 
     const [title, setTitle] = useState('')
     const [body, setBody] = useState('')
+    const [quality, setQuality] = useState('high')
     const [isPending, setIsPending] = useState(false)
     const navigate = useNavigate();
     // preventing the page from restarting by adding prevent default
     const handleSubmit = (e) => {
         e.preventDefault()
-        const todo = { title, body }
+        const todo = { title, body, quality }
         setIsPending(true)
 
         // sending post request to json server
@@ -44,6 +45,18 @@ const Create = () => {
                     value={body}
                     onChange={e => setBody(e.target.value)}
                 ></textarea>
+                <label>set quality:</label>
+
+                <select
+                    required
+                    value={quality}
+                    onChange={e => setQuality(e.target.value)}
+                >
+                    <option>High</option>
+                    <option>medium</option>
+                    <option>low</option>
+
+                </select>
                 {!isPending && <button>Add todo</button>}
                 {isPending && <button disabled>Adding todo...</button>}
             </form>

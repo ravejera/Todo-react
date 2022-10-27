@@ -3,67 +3,48 @@
     {
       "title": "my first todo",
       "body": "It sets up your development environment so that you can use the latest JavaScript features, provides a nice developer experience, and optimizes your app for production.",
+      "quality": "high",
       "id": 1
     },
     {
       "title": "this is my second todo",
       "body": "It sets up your development environment so that you can use the latest JavaScript features, provides a nice developer experience, and optimizes your app for production.",
+      "quality": "low",
       "id": 2
     },
     {
-      "title": "Gee's birthday party",
-      "body": "all are welcome at the state louge nyeri county at 9:00am to evening",
-      "id": 11
+      "title": "ahaahaduec",
+      "body": "uuuu",
+      "id": 3
     },
     {
-      "title": "mombasa trip",
-      "body": "i'll be travelling with my family to diani on 25th of august and we'll have a week for that vacation\n",
-      "id": 12
+      "title": "jcabiujc",
+      "body": "ascininomwcae",
+      "id": 4
     },
     {
-      "title": "opening party!",
-      "body": "new house will be opened",
-      "id": 13
+      "title": "yes!",
+      "body": "bqgd dhjbwcs jboiwejamc hacolnhcan ukqwbciaku",
+      "quality": "medium",
+      "id": 5
     },
     {
-      "title": "blogs",
-      "body": "these are all blogs\n",
-      "id": 14
+      "title": "ds",
+      "body": "dsc",
+      "quality": "high",
+      "id": 6
     },
     {
-      "title": "blogs",
-      "body": "these are all blogs\n",
-      "id": 15
+      "title": "yes",
+      "body": "shalkmm;kxa",
+      "quality": "low",
+      "id": 7
     },
     {
-      "title": "werty",
-      "body": "ertyqwert",
-      "id": 16
-    },
-    {
-      "title": "qwerty",
-      "body": "al hands\n",
-      "id": 17
-    },
-    {
-      "title": "wewe",
-      "body": "mimi na weweeeeee",
-      "id": 18
-    },
-    {
-      "title": "defes",
-      "body": "svssgss",
-      "id": 19
-    },
-    {
-      "title": "djkgcibf",
-      "body": "dfbsu jkbukec",
-      "id": 20
-    },
-    {
-      "title": "iegwf987cgbywgc",
-      "body": "efuigwciugbwrfgcuy",
-      "id": 21
+      "title": "ew",
+      "body": "ew",
+      "quality": "high",
+      "id": 8
     }
   ]
 }

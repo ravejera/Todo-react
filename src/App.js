@@ -3,7 +3,7 @@ import Home from './Home'
 import Create from './Create';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-function App() {
+function App() { 
   return (
     <Router>
       <div className="App">

@@ -21,7 +21,7 @@ const Home = () => {
         }, 500)
     },[])
 
-
+    console.log(todos)
     // Delete function
     const handleDelete = (id) => {
         const newTodo = todos.filter(todo => todo.id !== id)
@@ -33,7 +33,7 @@ const Home = () => {
         <div className="home">
             {isPending && <div>Loading...</div>}
             {todos && <Todolist todos={todos} title = "ALL TODOS!" handleDelete={handleDelete}/>}
-
+            {/* {todos && <SearchBar todos={todos} />} */}
         </div>
      );
 }
